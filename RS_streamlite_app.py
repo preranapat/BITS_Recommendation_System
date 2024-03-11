@@ -36,7 +36,7 @@ def recommend(movie):
     return recommended_movie_names,recommended_movie_posters
 
 
-st.header('Prerana Recommender System')
+st.header('Ankita Recommender System')
 movies = pickle.load(open('movie_list_1.pkl','rb'))
 similarity = pickle.load(open('similarity.pkl','rb'))
 
